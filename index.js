@@ -6,7 +6,7 @@ const nombre = prompt('Bienvenido al pinche juego "Adivina el numero" Ingresa tu
 let intentos = 0;
 let numero;
 for (let i = 0; i < 5; intentos++ ) {
-     numero = parseInt(prompt (`ingresa tu numero de la suerte mi estimado ${nombre}`));
+     numero = parseInt(prompt (`ingresa un numero entre el 1 y 100 mi estimado ${nombre}`));
     if(numero > aleatory){
         alert('el numero que te hara ganar es menor al que ingresaste')
     } else if (numero < aleatory) {
